@@ -1,6 +1,10 @@
 name = "cloudflare-docker-proxy"
 compatibility_date = "2023-12-01"
 
+[vars]
+CUSTOM_DOMAIN = "archiemeng.pro"
+MODE = "production"
+
 [dev]
 ip = "0.0.0.0"
 port = 8787
